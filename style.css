@@ -78,12 +78,12 @@ span{
     top: -10px;
 }
 
-.images{
+.imagens{
     top: 10%;
     right: 100%;
 }
 
-.images img{
+.imagens img{
     width: 30%;
     height: 70%;
     position: absolute;
@@ -93,10 +93,11 @@ span{
     transition: top 1s;
 }
 
-.images:hover .shape1{
+.imagens:hover .shape1{
     top: 210px;
 }
 
-.images:hover .sillycat1{
-    top: 160px;
+.imagens:hover .sillycat1{
+    top: 140px;
 }
+
