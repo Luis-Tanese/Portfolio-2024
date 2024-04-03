@@ -4,9 +4,24 @@
     font-family: cursive;
 }
 
-/*
-Home
-*/
+body {
+    background-color: rgb(236, 200, 155);
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 1s ease-out forwards;
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .PPE-Tab{
     position: relative;
     width: 100%;

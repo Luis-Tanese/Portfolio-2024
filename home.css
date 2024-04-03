@@ -4,9 +4,24 @@
     font-family: cursive;
 }
 
-/*
-Home
-*/
+body {
+    background-color: rgb(236, 200, 155);
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 1s ease-out forwards;
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .Home-Tab{
     position: relative;
     width: 100%;
@@ -126,11 +141,11 @@ span{
 }
 
 .imagens:hover .shape1{
-    top: 210px;
+    top: 205px;
 }
 
 .imagens:hover .sillycat1{
-    top: 140px;
+    top: 160px;
 }
 
 .dropdown-content {

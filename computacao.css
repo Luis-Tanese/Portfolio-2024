@@ -4,6 +4,24 @@
     font-family: cursive;
 }
 
+body {
+    background-color: rgb(236, 200, 155);
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 1s ease-out forwards;
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .Computacao-Tab{
     position: relative;
     width: 100%;
@@ -78,4 +96,31 @@ nav ul li .romp:hover,
 
 .dropdown.active .dropbtn {
     background-color: transparent;
+}
+
+.anchors {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: -200px;
+}
+
+.anchor {
+    display: inline-block;
+    background: rgb(236, 200, 155);
+    padding: 10px 18px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: transform 0.5s ease;
+    position: relative;
+}
+
+.anchor:hover {
+    color: darkcyan;
+    transform: translateY(-7px);
 }
